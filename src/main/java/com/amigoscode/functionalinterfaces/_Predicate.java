@@ -17,7 +17,12 @@ public class _Predicate {
         // Predicate
         log.info(String.valueOf(isPhoneNumberValidPredicate.test("07000000001")));
         log.info(String.valueOf(isPhoneNumberValidPredicate.test("0700000000")));
+        log.info(String.valueOf(isPhoneNumberValidPredicate.test("0900000002")));
 
+        // Chained Predicate
+        log.info(String.valueOf(isPhoneNumberValidPredicate.and(containsNumber3).test("07000000003")));
+        log.info(String.valueOf(isPhoneNumberValidPredicate.and(containsNumber3).test("07000000009")));
+        log.info(String.valueOf(isPhoneNumberValidPredicate.or(containsNumber3).test("070000000093")));
 
     }
 
@@ -27,4 +32,7 @@ public class _Predicate {
 
     static Predicate<String> isPhoneNumberValidPredicate = phoneNumber ->
             phoneNumber.startsWith("07") && phoneNumber.length() == 11;
+
+    static Predicate<String> containsNumber3 = phoneNumber ->
+            phoneNumber.contains("3");
 }
