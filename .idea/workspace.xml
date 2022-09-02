@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed820222-54ec-49d5-aa7f-cbe9a6a71068" name="Changes" comment="More.....">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/functionalinterfaces/_Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/streams/_Stream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application._Supplier">
+  <component name="RunManager" selected="Application._Stream">
     <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amigoscode.functionalinterfaces._Consumer" />
       <module name="functionalJavaWithAmigo" />
@@ -82,6 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amigoscode.streams._Stream" />
+      <module name="functionalJavaWithAmigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amigoscode.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_Supplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amigoscode.functionalinterfaces._Supplier" />
       <module name="functionalJavaWithAmigo" />
@@ -97,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Stream" />
         <item itemvalue="Application._Supplier" />
         <item itemvalue="Application._Predicate" />
         <item itemvalue="Application._Consumer" />
@@ -148,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662128728494</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="More.....">
+      <created>1662129852338</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662129852338</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
