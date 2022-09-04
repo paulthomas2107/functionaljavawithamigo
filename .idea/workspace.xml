@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed820222-54ec-49d5-aa7f-cbe9a6a71068" name="Changes" comment="More.....">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/finalsection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/lambdas/Lambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,20 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.amigoscode.finalsection.Main">
+  <component name="RunManager" selected="Application.Lambdas">
+    <configuration name="Lambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amigoscode.lambdas.Lambdas" />
+      <module name="functionalJavaWithAmigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amigoscode.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amigoscode.optionals.Main" />
       <module name="functionalJavaWithAmigo" />
@@ -63,19 +77,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.amigoscode.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_Supplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amigoscode.functionalinterfaces._Supplier" />
-      <module name="functionalJavaWithAmigo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amigoscode.functionalinterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lambdas" />
         <item itemvalue="Application.com.amigoscode.finalsection.Main" />
         <item itemvalue="Application.com.amigoscode.combinatorpattern.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application._Stream" />
-        <item itemvalue="Application._Supplier" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662141268518</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="More.....">
+      <created>1662287963591</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662287963591</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
