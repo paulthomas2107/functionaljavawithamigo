@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed820222-54ec-49d5-aa7f-cbe9a6a71068" name="Changes" comment="More.....">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/combinatorpattern/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/combinatorpattern/CustomerRegistrationValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/combinatorpattern/CustomerValidatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/combinatorpattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/optionals/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amigoscode/finalsection/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,26 +43,13 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.amigoscode.combinatorpattern.Main">
+  <component name="RunManager" selected="Application.com.amigoscode.finalsection.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amigoscode.optionals.Main" />
       <module name="functionalJavaWithAmigo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.amigoscode.optionals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.amigoscode.functionalinterfaces._Predicate" />
-      <module name="functionalJavaWithAmigo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amigoscode.functionalinterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.amigoscode.finalsection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amigoscode.finalsection.Main" />
+      <module name="functionalJavaWithAmigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amigoscode.finalsection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.amigoscode.finalsection.Main" />
         <item itemvalue="Application.com.amigoscode.combinatorpattern.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application._Stream" />
         <item itemvalue="Application._Supplier" />
-        <item itemvalue="Application._Predicate" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662133946161</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="More.....">
+      <created>1662141268518</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662141268518</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
